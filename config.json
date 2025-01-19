@@ -1,0 +1,70 @@
+{
+  "ascii": [
+    " █████╗ ██████╗ ██╗████████╗██╗",
+    "██╔══██╗██╔══██╗██║╚══██╔══╝██║",
+    "███████║██║  ██║██║   ██║   ██║",
+    "██╔══██║██║  ██║██║   ██║   ██║",
+    "██║  ██║██████╔╝██║   ██║   ██║",
+    "╚═╝  ╚═╝╚═════╝ ╚═╝   ╚═╝   ╚═╝"
+  ],
+  "title": "WebShell",
+  "repoLink": "https://github.com/aditi-dsi/webshell",
+  "social": {
+    "devto":"https://dev.to/aditi_b",
+    "x": "https://x.com/halfacupoftea_",
+    "linkedin": "https://linkedin.com/in/aditi-bindal",
+    "github": "https://github.com/aditi-dsi",
+    "email": "aditii.b6@email.com"
+  },
+  "aboutGreeting": "Hi, I am Aditi Bindal, a developer/devrel speciailizing in web3 and ai.",
+  "projects": [
+    [
+      "AISuite",
+      "AI powered content management suite, currently on waitlist, built with Next.js, Supabase.",
+      "https://aisuite.shwetlabs.com"
+    ],
+    [
+      "Shwet",
+      "Truth Chain for sharing owned text/media with zk-proof, underhood rust smart contracts for solana. ",
+      "https://github.com/yashsangwan00/Shwet"
+    ],
+    [
+      "BlackWell",
+      "A token utility dapp for staking tokens, earning, redeeming rewards & getting credit score for wallet.",
+      "https://github.com/aditi-dsi/blackwell"
+    ],
+    [
+      "Dog Image Classifier",
+      "Implemented Pre-trained Image Classifier for Detecting Dogs & their Breeds, compared CNN architectures.",
+      "https://github.com/aditi-dsi/DogBreedClassifier"
+    ],
+    [
+      "All",
+      "The list goes more, view all of the projects I am working on.",
+      "https://github.com/aditi-dsi"
+    ]
+  ],
+  "colors": {
+    "background": "#0C0623",
+    "foreground": "#F8DDE5",
+    "banner": "#FF9951",
+    "border": {
+      "visible": true,
+      "color": "#FFADE2"
+    },
+    "prompt": {
+      "default": "#A5A7A7",
+      "user": "#FE6BC9",
+      "host": "#70FDFF",
+      "input": "#FF7685"
+    },
+    "link": {
+      "text": "#B6AAEE",
+      "highlightColor": "#FFADE2",
+      "highlightText": "#0C0623"
+    },
+    "commands": {
+      "textColor": "#FD9BDB"
+    }
+  }
+}
