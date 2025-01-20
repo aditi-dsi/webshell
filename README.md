@@ -16,9 +16,7 @@
 * **[↑][↓]** to scroll through your command history.
 
 ## ???
-<div align="center">
-  <img alt="banner" src="https://raw.githubusercontent.com/nasan016/webshell/main/res/secret.png">
-</div>
+![webshell.aditi.codes](secret.png)
 How did we get here?
 
 ## Configuration
@@ -40,10 +38,10 @@ Most of the configuration is done in the `config.json` file.
   "title": "WebShell",
   "repoLink": "https://github.com/aditi-dsi/webshell",
   "social": {
-    "x": "https://x.com/halfacupoftea_",
-    "linkedin": "https://linkedin.com/in/aditi-bindal",
-    "github": "https://github.com/aditi-dsi",
-    "devto":"https://dev.to/aditi_b",
+    "x": "halfacupoftea_",
+    "linkedin": "aditi-bindal",
+    "github": "aditi-dsi",
+    "devto":"aditi_b",
     "email": "aditii.b6@email.com"
   },
   "aboutGreeting": "Hi, I am Aditi Bindal, a developer/devrel speciailizing in web3 and ai.",
@@ -54,9 +52,9 @@ Most of the configuration is done in the `config.json` file.
       "https://aisuite.shwetlabs.com"
     ],
     [
-      "Shwet",
-      "Truth Chain for sharing owned text/media with zk-proof, underhood rust smart contracts for solana. ",
-      "https://github.com/yashsangwan00/Shwet"
+      "BlackWell",
+      "A token utility dapp for staking tokens, earning, redeeming rewards & getting credit score for wallet.",
+      "https://github.com/aditi-dsi/blackwell"
     ]
   ]
 }

@@ -10,10 +10,10 @@
   "title": "WebShell",
   "repoLink": "https://github.com/aditi-dsi/webshell",
   "social": {
-    "devto":"https://dev.to/aditi_b",
-    "x": "https://x.com/halfacupoftea_",
-    "linkedin": "https://linkedin.com/in/aditi-bindal",
-    "github": "https://github.com/aditi-dsi",
+    "x": "halfacupoftea_",
+    "linkedin": "aditi-bindal",
+    "github": "aditi-dsi",
+    "devto":"aditi_b",
     "email": "aditii.b6@email.com"
   },
   "aboutGreeting": "Hi, I am Aditi Bindal, a developer/devrel speciailizing in web3 and ai.",
@@ -26,7 +26,7 @@
     [
       "Shwet",
       "Truth Chain for sharing owned text/media with zk-proof, underhood rust smart contracts for solana. ",
-      "https://github.com/yashsangwan00/Shwet"
+      "https://github.com/yash-sangwan/Shwet"
     ],
     [
       "BlackWell",

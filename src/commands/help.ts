@@ -2,7 +2,7 @@ const helpObj = {
   "commands": [
     [
     "'about'",
-    "Who made this website?",
+    "Who is Aditi?",
     ],
     [
       "'projects'",
@@ -25,6 +25,10 @@ const helpObj = {
     [
       "'clear'",
       "Clear the terminal."
+    ],
+    [
+      "'home'",
+      "Go back to aditi.codes."
     ]
   ],
 }

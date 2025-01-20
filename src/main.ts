@@ -240,14 +240,11 @@ function commandHandler(input: string) {
         window.open(REPO_LINK, "_blank");
       }, 500);
       break;
-    case "linkedin":
-      //add stuff here
-      break;
-    case "github":
-      //add stuff here
-      break;
-    case "email":
-      //add stuff here
+    case 'home':
+      writeLines(["Redirecting to aditi.codes...", "<br>"]);
+      setTimeout(() => {
+        window.open('https://aditi.codes');
+      }, 500);
       break;
     case "rm -rf":
       if (bareMode) {

@@ -5,17 +5,17 @@ const createAbout = () : string[] => {
 
   const SPACE = "&nbsp;";
   
-  const DEVTO = "dev.to"
   const X = "X (Twitter)"
-  const EMAIL = "Email";
-  const GITHUB = "Github";
   const LINKEDIN = "Linkedin";
+  const GITHUB = "Github";
+  const DEVTO = "dev.to"
+  const EMAIL = "Email";
   
-  const devto = `<i class="fa-solid fa-newspaper"></i> ${DEVTO}`;   
   const x = `<i class='fa-solid fa-x'></i> ${X}`;   
-  const email = `<i class='fa-solid fa-envelope'></i> ${EMAIL}`;   
-  const github = `<i class='fa-brands fa-github'></i> ${GITHUB}`;
   const linkedin = `<i class='fa-brands fa-linkedin'></i> ${LINKEDIN}`;
+  const github = `<i class='fa-brands fa-github'></i> ${GITHUB}`;
+  const devto = `<i class="fa-solid fa-newspaper"></i> ${DEVTO}`;   
+  const email = `<i class='fa-solid fa-envelope'></i> ${EMAIL}`;   
   let string = "";
 
   about.push("<br>");
@@ -24,7 +24,7 @@ const createAbout = () : string[] => {
   string += SPACE.repeat(2);
   string += x;
   string += SPACE.repeat(17 - X.length);
-  string += `<a target='_blank' href='https://x.com/${command.social.x}'>${command.social.x}</a>`;
+  string += `<a target='_blank' href='https://x.com/${command.social.x}'>x/${command.social.x}</a>`;
   about.push(string);
 
   string = '';
@@ -45,7 +45,7 @@ const createAbout = () : string[] => {
   string += SPACE.repeat(2);
   string += devto;
   string += SPACE.repeat(17 - DEVTO.length);
-  string += `<a target='_blank' href='mailto:${command.social.devto}'>${command.social.devto}</a>`;
+  string += `<a target='_blank' href='https://dev.to/${command.social.devto}'>dev.to/${command.social.devto}</a>`;
   about.push(string);
 
   string = '';
