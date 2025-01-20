@@ -25,10 +25,6 @@ const PASSWORD = document.getElementById("password-input");
 const PASSWORD_INPUT = document.getElementById(
   "password-field"
 ) as HTMLInputElement;
-const PRE_HOST = document.getElementById("pre-host");
-const PRE_USER = document.getElementById("pre-user");
-const HOST = document.getElementById("host");
-const USER = document.getElementById("user");
 const PROMPT = document.getElementById("prompt");
 const COMMANDS = [
   "help",
@@ -41,7 +37,6 @@ const COMMANDS = [
 ];
 const HISTORY: string[] = [];
 const SUDO_PASSWORD = "iampasswordstealer";
-// const SUDO_PASSWORD = command.password;
 const REPO_LINK = command.repoLink;
 
 const scrollToBottom = () => {
